@@ -1,7 +1,7 @@
 # Retail Pricing Strategy & Portfolio Intelligence Tool
 
-**Tools:** Python · Streamlit · Plotly · Scipy · Statsmodels · Power BI  
-**Data:** Dunnhumby "The Complete Journey" — 2.5M+ retail transactions  
+**Tools:** Python · Statsmodels · Power BI  
+**Data:** Dunnhumby "The Complete Journey" 2.5M+ retail transactions  
 
 ---
 
@@ -61,18 +61,6 @@ Quadrants: Core Assets (Protect) · Growth (Invest) · Mature (Optimize) · Weak
 
 ---
 
-## Streamlit Dashboard — 5 Panels
-
-| Tab | Description |
-|---|---|
-| Portfolio Overview | Elasticity by department, segment distribution, summary table |
-| Product Explorer | Department/product selector, live price simulator, revenue curve |
-| Pricing Opportunities | Top 20 products by uplift potential, color-coded recommendations |
-| Demand Curves | Fitted demand curve with actual weekly scatter, current vs optimal price |
-| Strategic Portfolio | Category Attractiveness Matrix, value creation by department, executive summary |
-
----
-
 ## Power BI Dashboard — Key Visuals
 
 | Visual | Description |
@@ -114,11 +102,3 @@ Available on Kaggle. Files used: `transaction_data.csv`, `product.csv`, `campaig
 - Revenue optimization ignores cross-price effects between substitute products
 
 ---
-
-## How to Run
-
-```bash
-pip install streamlit plotly statsmodels scipy pandas numpy
-
-streamlit run dashboard.py
-```
